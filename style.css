@@ -17,7 +17,7 @@ body {
     position: relative;
     left: 34vw;
     top: 30vh;
-    transition: left .5s ease-in, top .5s ease-in;
+    transition: left 1s ease-in, top 1s ease-in;
     height: 10vh;
     width: 6vw;
 }
