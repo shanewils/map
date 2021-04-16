@@ -1,0 +1,23 @@
+body {
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contentContainer {
+    width: 75vw;
+    height: 85vh;
+    overflow: hidden;
+    cursor: pointer;
+    background-image: url(/image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#thing {
+    position: relative;
+    left: 34vw;
+    top: 30vh;
+    transition: left .5s ease-in, top .5s ease-in;
+    height: 10vh;
+    width: 6vw;
+}
