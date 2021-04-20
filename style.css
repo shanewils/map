@@ -9,9 +9,7 @@ body {
     height: 85vh;
     overflow: hidden;
     cursor: pointer;
-    background-image: url(https://t4.ftcdn.net/jpg/02/59/49/93/360_F_259499366_ytGqXw4RgHBUHBteftXKtpqTs6qiscIh.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: greenyellow;
 }
 #thing {
     position: relative;
@@ -20,4 +18,45 @@ body {
     transition: left 1s ease-in, top 1s ease-in;
     height: 10vh;
     width: 6vw;
+    z-index: 1;
+}
+
+.building img {
+    height: 25vh;
+    width: 15vw;
+}
+
+.b2 {
+    position: relative;
+    left: 34vw;
+    top: 20vh;
+    z-index: 0;
+}
+
+.b3 {
+    position: relative;
+    left: 55vw;
+    top: -40vh;
+    z-index: 0;
+}
+
+.b4 {
+    position: relative;
+    left: 10vw;
+    top: -50vh;
+    z-index: 0;
+}
+
+.b4 {
+    position: relative;
+    left: 10vw;
+    top: -50vh;
+    z-index: 0;
+}
+
+.b5 {
+    position: relative;
+    left: 38vw;
+    top: -110vh;
+    z-index: 0;
 }
