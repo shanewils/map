@@ -7,6 +7,7 @@ function getClickPosition(e) {
     var parentPosition = getPosition(e.currentTarget);
     var xPosition = e.clientX - parentPosition.x - (theThing.clientWidth / 2);
     var yPosition = e.clientY - parentPosition.y - (theThing.clientHeight / 2);
+    console.log(xPosition, yPosition)
      
     theThing.style.left = xPosition + "px";
     theThing.style.top = yPosition + "px";

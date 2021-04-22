@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #FFF;
     margin: 0;
@@ -5,19 +11,24 @@ body {
     box-sizing: border-box;
 }
 #contentContainer {
-    width: 75vw;
-    height: 85vh;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
     background-color: greenyellow;
 }
 #thing {
+    background-image: url("/image/frame_00_delay-0.08s-removebg-preview.png");
+    background-position: center;
+    background-size: cover;
     position: relative;
-    left: 34vw;
-    top: 30vh;
+    left: 48vw;
+    top: 43vh;
     transition: left 1s ease-in, top 1s ease-in;
     height: 10vh;
     width: 6vw;
     z-index: 1;
+    transform: none;
+    border:none
 }
 
 .building img {
@@ -25,18 +36,26 @@ body {
     width: 15vw;
 }
 
+.b1 {
+    position: relative;
+    left:-80vw;
+    top: 0vh;
+    transform: scaleX(-1);
+}
+
 .b2 {
     position: relative;
-    left: 34vw;
-    top: 20vh;
+    left: 67vw;
+    top: 30vh;
     z-index: 0;
 }
 
 .b3 {
     position: relative;
-    left: 55vw;
-    top: -40vh;
+    left: 75vw;
+    top: -43vh;
     z-index: 0;
+    
 }
 
 .b4 {
@@ -48,14 +67,15 @@ body {
 
 .b4 {
     position: relative;
-    left: 10vw;
-    top: -50vh;
+    left: -80vw;
+    top: -20vh;
     z-index: 0;
+    transform: scaleX(-1);
 }
 
 .b5 {
     position: relative;
-    left: 38vw;
-    top: -110vh;
+    left:-25vw;
+    top: -85vh;
     z-index: 0;
 }
