@@ -17,7 +17,7 @@ body {
     background-color: greenyellow;
 }
 #thing {
-    background-image: url("![]/image/frame_00_delay-0.08s-removebg-preview.png");
+    background-image: url("../image/frame_00_delay-0.08s-removebg-preview.png");
     background-position: center;
     background-size: cover;
     position: relative;
