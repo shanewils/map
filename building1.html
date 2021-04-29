@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <h1>You are in building 1</h1>
-        <p><a href="/map">Go back</a></p>
-    </body>
+  
+<head>
+<title>Man about town</title>
+<link rel="stylesheet" href="building1.css">
+</head>
+ 
+<body>
+<div id="contentContainer">
+    <div id="thing"></div>
+    <div id="reception"></div>
+    <div id="door"></div>
+    <div id="lift">
+        <a href="javascript:setTimeout(()=>{window.location = './lift.html' },1200);" onclick="document.getElementById('thing').style.cssText=
+            'background-position: center; background-size: cover; position: relative; left: 1vw; top: 43vh; transition: left 1s ease-in, top 1s ease-in; height: 40vh; width: 20vw; z-index: 1; transform: scaleX(-1); border: none; background-image: url(https://gifimage.net/wp-content/uploads/2017/10/man-walking-gif-12.gif);'"><img src="/image/0v687r5um4ue88lpjith6b5ge6.png" alt=""></a>
+    </div>
+</div>
+ 
+<script src="main.js"></script>
+</body>
 </html>

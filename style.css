@@ -16,6 +16,7 @@ body {
     overflow: hidden;
     background-color: greenyellow;
 }
+
 #thing {
     background-image: url("https://i.imgur.com/YdmOMgH.png");
     background-position: center;
@@ -77,5 +78,56 @@ body {
     position: relative;
     left:-25vw;
     top: -85vh;
+    z-index: 0;
+}
+
+.tree {
+    background-image: url(https://i.gifer.com/Yg6D.gif) ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15vh;
+    width: 9.5vw;
+}
+
+.t1 {
+    position: relative;
+    left:-10vw;
+    top: -110vh;
+    z-index: 0;
+}
+
+.t2 {
+    position: relative;
+    left:-35vw;
+    top: -120vh;
+    z-index: 0;
+}
+
+.t3 {
+    position: relative;
+    left:-50vw;
+    top: -130vh;
+    z-index: 0;
+}
+
+.t4 {
+    position: relative;
+    left:8vw;
+    top: -120vh;
+    z-index: 0;
+}
+
+.t5 {
+    position: relative;
+    left:-35vw;
+    top: -98vh;
+    z-index: 0;
+}
+
+.t6 {
+    position: relative;
+    left:-70vw;
+    top: -145vh;
     z-index: 0;
 }

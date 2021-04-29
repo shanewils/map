@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contentContainer {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: cornflowerblue;
+}
+
+#thing {
+    background-image: url("https://i.imgur.com/YdmOMgH.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    left: 1vw;
+    top: 43vh;
+    transition: left 1s ease-in, top 1s ease-in;
+    height: 40vh;
+    width: 20vw;
+    z-index: 1;
+    transform: scaleX(-1);
+    border:none
+}
+
+#reception {
+    background-image: url(/image/Daco_2124695.png);
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+    left: 30vw;
+    top: -6.5vh;  
+    height: 40vh;
+    width: 30vw;
+}
+
+#door {
+    background-image: url(/image/—Pngtree—shop\ glass\ door_5395630.png);
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+    left: -5vw;
+    top: -80vh;  
+    height: 80vh;
+    width: 30vw;
+}
+
+#floor {
+    color: cornflowerblue;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    left: -5vw;
+    top: 10vh;  
+    height: 80vh;
+    width: 100vw;
+}
+
+#lift {
+    background-image: url(/image/0v687r5um4ue88lpjith6b5ge6.png);
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+    left: 65vw;
+    top: -153vh;  
+    height: 80vh;
+    width: 30vw;
+}
